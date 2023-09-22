@@ -1,50 +1,44 @@
-
 <?php
 
-  echo "Hola Mundo!!";
-
+  echo "Tarea Clase 4";
+  echo "<br>";
   echo "<br>";
 
-  $variable = "Hola Mundoooo!";
-    echo $variable;
-
+  $n = 7;
+  if ($n > 0) {
+    echo "Es un número positivo";
+  }
   echo "<br>";
 
-  $num1 = 15;
-  $num2 = 20;
-
-  echo $num1 + $num2;
+  $n1 = 7;
+  if ($n1 > 1 && $n1 < 10) {
+    echo "El número ingresado es mayor a 1 y menor a 10";
+  }
   echo "<br>";
 
-  echo $num1 - $num2;
+  $n2 = 4;
+  if ($n2 >= 10 || $n2 < 2) {
+    echo "El número ingresado es mayor o igual a 10 o menor a 2";
+  }
+  echo "El número ingresado no puede ser válidado";
   echo "<br>";
 
-  echo $num1 * $num2;
-  echo "<br>";
+  $numero1 = 7;
+  $numero2 = 3;
+  if ($numero1 > $numero2) {
+    echo $numero1 + $numero2;
+    echo "<br>";
+    echo $numero1 - $numero2;
+  }
+  if ($numero1 < $numero2) {
+    echo $numero1 * $numero2;
+    echo "<br>";
+    echo $numero1 / $numero2;
+    echo "<br>";
+    echo $numero1 % $numero2;
+  }
+  if ($numero1 == $numero2) {
+    echo "Los números son iguales";
+  }
 
-  echo $num1 / $num2;
-  echo "<br>";
-
-  echo $num1 % $num2;
-  echo "<br>";
-
-  $temperatura = 20;
-  echo "<br>";
-  echo ($temperatura * 9/5) + 20;
-  echo "<br>";
-
-  $base = 18;
-  $altura = 12;
-  echo ($base * 2)+ ($altura * 2);
-  echo "<br>";
-  echo $base * $altura;
-  echo "<br>";
-
-  $radio = 30;
-  echo 2 * $radio * 3.14;
-  echo "<br>";
-  echo 3.14 * $radio * $radio;
-
-
-
-?>
+ ?>
