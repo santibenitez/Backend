@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Con el amor en la masa">
+    <meta name="keywords" content="pan, pannettone, facturas, Juanita, panaderia, bakery">
+    <meta name="author" content="Santiago Tomás Benitez">
+    <link rel="stylesheet" href="./css/crud.css">
+    <title>Juanita- Panadería de autor</title>
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <h1>Juanita- Panadería de autor</h1>
+      </div>
+      <div class="guia">
+        <ul>
+          <li><a class="botonguia" href="#inicio">Inicio</a>
+          <li><a class="botonguia" href="#nosotros">Nosotros</a>
+          <li><a class="botonguia" href="#tienda">Tienda</a>
+          <li><a class="botonguia" href="#contactanos">Contactanos</a>
+          <li><a class="botonguia" href="./crud.html">Administrador</a>
+          <li><a class="botonguia" href="./stock.html">Gestión</a>
+        </ul>
+      </div>
+    </header>
+      <br><br><br><br><br><br><br><br><br>
+      <div class="formulario">
+        <img src="./imagenes/panadera.jpg" alt="Panadera" class="panadera"><br><br>
+        <form>
+          <div>
+            <label for="nombreproducto">Nombre del producto</label><br>
+            <input type="text" name="nombreproducto" placeholder="Nombre del producto"><br>
+            <label for="tipoproducto">Tipo de producto</label><br>
+            <select>
+              <option>Seleccionar tipo</option>
+              <option>Panadería</option>
+              <option>Pastelería</option>
+            </select><br>
+            <label for="descripcion">Descripción del producto</label><br>
+            <textarea placeholder="Ingresar descripcion"></textarea><br>
+            <label for="precio">Precio</label><br>
+            <input type="number" name="precio" placeholder="Precio"><br>
+            <label for="stock">Stock</label><br>
+            <input type="number" name="stock" placeholder="Cantidad disponible"><br>
+            <label for="archivo">Subir imagen</label><br><br>
+            <input type="file" name="archivo" placeholder="Seleccionar imagen">
+            <br>
+            <button type="submit">Ingresar</button>
+            <br>
+            <button type="submit">Editar</button>
+          </div>
+        </form>
+      </div>
+    <section>
+      <a href="htpps://wa.me/5492216191617" target="_blank" class="logo_whatsapp"><img src="./imagenes/logos/logo_whatsapp.png" alt="logo_whatsapp" class="boton_whatsapp"></a>
+    </section>
+  </body>
